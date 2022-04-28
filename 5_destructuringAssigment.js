@@ -1,6 +1,7 @@
 console.log("---------Asignación de desestructuración----------")
-/* La asignación de desestructuración es una sintaxis en JavaScript que le permite desempaquetar valores de matrices o
-propiedades de objetos y guardarlos en variables.*/
+/* Es una función muy útil porque podemos extraer datos directamente de matrices y objetos para guardarlos en variables,
+todo en una sola línea de código. Es poderoso porque nos permite extraer múltiples elementos de matriz o propiedades
+de objetos en la misma expresión.*/
 // -----desestructuración de arreglos------------
 let names = ['Rick', 'Seb'];
 let [name1, name2, name3] = names;
@@ -18,13 +19,13 @@ console.log(name03); // Expected output: 'Jessica'
 
 /* Otra característica muy útil de la desestructuración de matrices es la capacidad de establecer valores
 predeterminados para las variables que se crean con la desestructuración. */
-let [ a = 1, b = 2, c = 3 ] = [ 'cat', null ];
-console.log( a ); // Expected output: 'cat'
-console.log( b ); // Expected output: null
-console.log( c ); // Expected output: 3
+let [a = 1, b = 2, c = 3] = ['cat', null];
+console.log(a); // Expected output: 'cat'
+console.log(b); // Expected output: null
+console.log(c); // Expected output: 3
 /* Finalmente, la desestructuración de matrices se puede usar para intercambiar fácilmente valores de variables */
 let ab = 10;
 let ba = 5;
-[ ab, ba ] = [ ba, ab ];
-console.log( ab ); // Expected output: 5
-console.log( ba ); // Expected output: 10
+[ab, ba] = [ba, ab];
+console.log(ab); // Expected output: 5
+console.log(ba); // Expected output: 10

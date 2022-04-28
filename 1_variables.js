@@ -48,27 +48,6 @@ example.prop1 = 5;
 
 
 
-//
-// console.log("----------Template Literals--------------")
-// // Están delimitados por el símbolo de acento grave `` en lugar de las comillas simples o dobles habituales permiten
-// // incrustar expresiones en la cadena que se evalúan en tiempo de ejecución. Por lo tanto, podemos crear fácilmente
-// // cadenas dinámicas a partir de variables y expresiones variables. Estas expresiones se denotan con el signo de dólar
-// // y llaves ${ expression }
-// const example = "pretty";
-// console.log(`Template literals are ${example} useful!!!`);
-// // Using normal strings
-// console.log('This is line 1\nThis is line 2');
-//
-// // Using template literals
-// console.log(`This is line 1
-// This is line 2`);
-// let a = 5, b = 10;
-// console.log( `${a} + ${b} is equal to ${a + b}` );
-// function javascriptOrCPlusPlus() { return 'JavaScript'; }
-// const outputLiteral = `We are learning about ${ `Professional ${ javascriptOrCPlusPlus() }` }`
-// console.log(outputLiteral)
-
-
 
 
 
